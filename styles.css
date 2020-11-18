@@ -49,6 +49,10 @@ nav{
     
     flex: 1;
 }
+.logo-container img{
+    width: 40px;
+    height: 40px;
+}
 .logo{
     font-weight: 400;
     margin: 5px; /*Two lines above space out the logo and the words*/
