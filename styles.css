@@ -16,30 +16,39 @@ header{
     height: 10vh;
     margin: auto;
     align-items: center;
+    background: #c51422
+}
+header text{
+    color: white;
 }
 
 .logo-container,.nav-links, .cart{
     display: flex;
+    background: #c51422
 } /*Stretches each box across the screen*/
 
 
 nav{
   flex: 2;
+  ;
+;
     
    
 }
+
 .nav-links{
     justify-content: space-around;/*Stretches the list across flex box*/
     list-style: none;/*removes bullet points*/
+    color:white;
     
 }
 .nav-link{
-    color:#5f5f79;
     font-size: 18px;
     text-decoration: none;
 
 
 }
+
 .cart{
     
     flex: 1;
@@ -50,12 +59,14 @@ nav{
     flex: 1;
 }
 .logo-container img{
-    width: 40px;
-    height: 40px;
+    width: 65px;
+    height: 65px;
 }
 .logo{
     font-weight: 400;
     margin: 5px; /*Two lines above space out the logo and the words*/
+    color: white;
+    
 }
 .presentation{
     display: flex;
